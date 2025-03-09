@@ -1,0 +1,38 @@
+# Models and related artifacts
+saved_model*/
+results*/
+*.safetensors
+
+# Intermediate data and cache
+tmp_trainer/
+__pycache__/
+
+# Data files (if desired)
+*.csv
+archive/
+
+# Miscellaneous
+*.pdf
+*.png
+*.docx
+.DS_Store
+.idea/.DS_Store
+*.csv
+*.safetensors
+*.h5
+*.bin
+*.zip
+*.gz
+*.tar.gz
+*.pt
+*.pth
+*.joblib
+*.pickle
+saved_model*/
+__pycache__/
+.idea/
+archive/
+results*/
+tmp*/
+*.pdf
+*.docx
