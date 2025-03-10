@@ -34,7 +34,7 @@ This project leverages DistilBERT fine-tuned on ~23K labeled examples (L2R Datas
     - **Readability**: Flesch-Kincaid, average sentence length.
     - **Structural Features**: Lexical diversity, burstiness (sentence length variance), function-word and stop-word ratios.
     - **Semantic Indicators**: TF-IDF cosine similarity, approximate edit distance.
-    - **Perplexity Scoring**: GPT-2-based perplexity (higher indicates human-like complexity).
+    - **Perplexity Scoring**: DistilGPT-2-based perplexity (higher indicates human-like complexity).
     - **Sentiment Analysis**: VADER sentiment (positive, neutral, negative thresholds).
 - **Multi-format File Analysis**: Text, PDF, LaTeX, DOCX support.
 - **CLI & PDF Reporting**: Command-line interface and comprehensive PDF reports detailing overall and sentence-level analyses.
