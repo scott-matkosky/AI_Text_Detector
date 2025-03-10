@@ -23,7 +23,7 @@ A transformer-based classifier distinguishing between human-authored and AI-gene
 
 ## Overview
 
-This project leverages DistilBERT fine-tuned on ~23K labeled examples sourced from Kaggle's academic essays dataset, alongside the L2R dataset, which spans domains like academic research, business, and legal documents. The model utilizes sophisticated linguistic indicators and ensemble-based cross-validation for reliable identification of AI-generated content.
+This project leverages DistilBERT fine-tuned on ~23K labeled examples (L2R Dataset) and Kaggle's LLM text detect competition (AIDE dataset) from 2024, which spans domains like academic research, business, and legal documents. The model utilizes sophisticated linguistic indicators and ensemble-based cross-validation for reliable identification of AI-generated content.
 
 ---
 
